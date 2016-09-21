@@ -1,10 +1,10 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
+// Define the `samplingOnlineApp` module
+angular.module('samplingOnlineApp', [
   'ngAnimate',
   'ngRoute',
   'core',
-  'phoneDetail',
-  'phoneList',
+  'sampleDetail',
+  'sampleList',
 ]);

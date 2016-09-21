@@ -3,7 +3,7 @@
 // Angular E2E Testing Guide:
 // https://docs.angularjs.org/guide/e2e-testing
 
-describe('PhoneCat Application', function() {
+describe('SamplingOnline Application', function() {
 
   it('should redirect `index.html` to `index.html#!/phones', function() {
     browser.get('index.html');

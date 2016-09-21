@@ -1,0 +1,9 @@
+{
+	"age": 0, 
+	"id": "1", 
+	"imageUrl": "img/samples/samplebeat1.jpg", 
+	"soundUrl": "snd/samples/samplebeat1.wav",
+	"name": "Sample beat 1", 
+	"description": "Description of sample beat 1",
+	"snippet": "The Next, Next Beat\r\n\r\nExperience the future with beat 1."
+}

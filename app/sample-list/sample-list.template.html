@@ -1,0 +1,36 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <!--Sidebar content-->
+
+      <p>
+        Search samples:
+        <input ng-model="$ctrl.query" />
+      </p>
+
+      <p>
+        Sort by:
+        <select ng-model="$ctrl.orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="age">Newest</option>
+        </select>
+      </p>
+
+    </div>
+    <div class="col-md-10">
+      <!--Body content-->
+
+      <ul class="samples">
+        <li ng-repeat="sample in $ctrl.samples | filter:$ctrl.query | orderBy:$ctrl.orderProp"
+            class="thumbnail sample-list-item">
+          <a href="#!/samples/{{sample.id}}" class="thumb">
+            <img ng-src="{{sample.imageUrl}}" alt="{{sample.name}}" />
+          </a>
+          <a href="#!/samples/{{sample.id}}">{{sample.name}}</a>
+          <p>{{sample.snippet}}</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>

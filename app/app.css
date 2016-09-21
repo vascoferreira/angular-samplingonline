@@ -8,11 +8,11 @@ h1 {
 }
 
 /* View: Phone list */
-.phones {
+.samples {
   list-style: none;
 }
 
-.phones li {
+.samples li {
   clear: both;
   height: 115px;
   padding-top: 15px;
@@ -26,8 +26,8 @@ h1 {
   width: 100px;
 }
 
-/* View: Phone detail */
-.phone {
+/* View: Sample detail */
+.sample {
   background-color: white;
   display: none;
   float: left;
@@ -38,11 +38,11 @@ h1 {
   width: 400px;
 }
 
-.phone:first-child {
+.sample:first-child {
   display: block;
 }
 
-.phone-images {
+.sample-images {
   background-color: white;
   float: left;
   height: 450px;
@@ -51,43 +51,21 @@ h1 {
   width: 450px;
 }
 
-.phone-thumbs {
+.sample-thumbs {
   list-style: none;
   margin: 0;
 }
 
-.phone-thumbs img {
+.sample-thumbs img {
   height: 100px;
   padding: 1em;
   width: 100px;
 }
 
-.phone-thumbs li {
+.sample-thumbs li {
   background-color: white;
   border: 1px solid black;
   cursor: pointer;
   display: inline-block;
   margin: 1em;
-}
-
-.specs {
-  clear: both;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.specs dt {
-  font-weight: bold;
-}
-
-.specs > li {
-  display: inline-block;
-  vertical-align: top;
-  width: 200px;
-}
-
-.specs > li > span {
-  font-size: 1.2em;
-  font-weight: bold;
 }
